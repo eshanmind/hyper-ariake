@@ -1,13 +1,13 @@
 {
-  "name": "hyper-snazzy",
+  "name": "hyper-ariake",
   "version": "1.2.0",
-  "description": "Elegant Hyper theme with bright colors",
+  "description": "Cool blue theme ported from the ariake-dark atom theme",
   "license": "MIT",
-  "repository": "sindresorhus/hyper-snazzy",
+  "repository": "eshanmind/hyper-ariake",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Eshan Ramesh",
+    "email": "eshanmind@gmail.com",
+    "url": "eshanmind@gmail.com"
   },
   "files": [
     "index.js"
@@ -19,6 +19,10 @@
     "term",
     "theme",
     "hyperterm",
+    "blue",
+    "cool",
+    "calm",
+    "clean",
     "elegant"
   ]
 }
