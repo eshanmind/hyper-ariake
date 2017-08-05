@@ -1,18 +1,19 @@
 'use strict';
-const foregroundColor = '#eff0eb';
-const backgroundColor = '#282a36';
-const red = '#ff5c57';
-const green = '#5af78e';
-const yellow = '#f3f99d';
-const blue = '#57c7ff';
-const magenta = '#ff6ac1';
-const cyan = '#9aedfe';
+const foregroundColor = '#b9bed5';
+const backgroundColor = '#2a2d37';
+const red = '#85b1e0';
+const green = '#9aefea';
+const yellow ='#dda2f6';
+const blue = '#f5faff';
+const magenta = '#7e7edd';
+const cyan = '#4d8acb';
+const lightBlack =
 
 exports.decorateConfig = config => Object.assign({}, config, {
 	backgroundColor,
 	foregroundColor,
-	borderColor: '#222430',
-	cursorColor: '#97979b',
+	borderColor: foregroundColor,
+	cursorColor: cyan,
 	colors: {
 		black: backgroundColor,
 		red,
@@ -21,8 +22,8 @@ exports.decorateConfig = config => Object.assign({}, config, {
 		blue,
 		magenta,
 		cyan,
-		white: '#f1f1f0',
-		lightBlack: '#686868',
+		white: blue,
+		lightBlack: backgroundColor,
 		lightRed: red,
 		lightGreen: green,
 		lightYellow: yellow,
@@ -40,7 +41,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
 		}
 
 		.tab_active:before {
-			border-color: rgba(255, 106, 193, 0.25);
+			border-color: blue;
 		}
 
 		.term_fit:not(.term_term) {
@@ -60,7 +61,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
 			left: 0;
 			right: 0;
 			height: 1px;
-			background-color: rgba(255, 106, 193, 0.4);
+			background-color: blue;
 			transform: scaleX(0);
 		}
 
